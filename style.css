@@ -1,0 +1,53 @@
+/* Automate Cropping of Images in PhotoShop: http://www.solveyourtech.com/how-to-crop-many-pictures-at-once-in-photoshop/ */
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #000000;
+	display: flex;
+	flex-wrap: wrap;
+}
+.max-img {
+	max-height: 98%;
+	max-width: 98%;
+}
+
+img:hover {
+	cursor: pointer;
+}
+
+.no-cursor:hover {
+	cursor: default;
+}
+
+.opaque {
+	opacity: 0.5;
+}
+
+.small-row {
+	display: flex;
+	flex-wrap: wrap;
+	height: calc(100vh/3);
+	width: calc(100vw);
+}
+
+.large-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh/3*2);
+	width: calc(100vw);
+}
+
+.fifth-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh/3);
+	width: calc(100vw/5);
+}
+
+.roses {
+	content:url(images/dbz22.png);
+}
