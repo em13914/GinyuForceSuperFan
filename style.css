@@ -66,11 +66,6 @@ img:hover {
 		width: calc(100vw);
 	}
 
-	.large-row {
-		height: calc(100vh/3*2);
-		width: calc(100vw);
-	}
-
 	.fifth-box {
 		height: calc(100vh/5);
 		width: calc(100vw);
