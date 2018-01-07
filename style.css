@@ -9,6 +9,11 @@ body {
 	flex-wrap: wrap;
 }
 
+.max-img {
+	max-height: 98%;
+	max-width: 98%;
+}
+
 .max-height {
 	max-height: 98%;
 }
