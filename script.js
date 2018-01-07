@@ -134,7 +134,7 @@ function addImgElement() {
 	// add the img to your HTML
 	document.getElementById("insert-img-here").appendChild(newImg);
 	// add the 'max-img' class to restric the image size
-	newImg.classList.add("max-height");
+	newImg.classList.add("max-img");
 
 	// add an 'onclick' function in the HTML
 	newImg.onclick = function(){
