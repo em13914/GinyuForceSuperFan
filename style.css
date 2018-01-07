@@ -8,8 +8,12 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
-.max-img {
+
+.max-height {
 	max-height: 98%;
+}
+
+.max-width {
 	max-width: 98%;
 }
 
@@ -50,4 +54,21 @@ img:hover {
 
 .roses {
 	content:url(images/dbz22.png);
+}
+
+@media screen and (max-width: 800px) {
+	.small-row {
+		height: calc(100vh);
+		width: calc(100vw);
+	}
+
+	.large-row {
+		height: calc(100vh/2);
+		width: calc(100vw);
+	}
+
+	.fifth-box {
+		height: calc(100vh/5);
+		width: calc(100vw);
+	}
 }
