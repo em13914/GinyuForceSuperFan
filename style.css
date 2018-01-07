@@ -61,7 +61,7 @@ img:hover {
 	content:url(images/dbz22.png);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 	.small-row {
 		height: calc(100vh);
 		width: calc(100vw);
