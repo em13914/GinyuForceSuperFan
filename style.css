@@ -13,12 +13,9 @@ body {
 	max-width: 98%;
 }
 
-.max-height {
-	max-height: 98%;
-}
-
-.max-width {
-	max-width: 98%;
+.fixed-aspect {
+	max-height: calc(99vh/3*2);
+	max-width: calc(4/3*(99vh/3*2));
 }
 
 img:hover {
