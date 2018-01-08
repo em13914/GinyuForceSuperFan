@@ -67,4 +67,9 @@ img:hover {
 		height: calc(100vh/5);
 		width: calc(100vw);
 	}
+	
+	.large-row {
+		height: calc(100vw*3/4);
+		width: calc(100vw);
+	}
 }
