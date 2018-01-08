@@ -14,8 +14,8 @@ body {
 }
 
 .fixed-aspect {
-	max-height: calc(99vh/3*2);
-	max-width: calc(4/3*(99vh/3*2));
+	max-height: calc(98vh/3*2);
+	max-width: calc(4/3*(98vh/3*2));
 }
 
 img:hover {
@@ -73,7 +73,7 @@ img:hover {
 	}
 	
 	.fixed-aspect {
-		max-height: calc(99vw*3/4);
-		max-width: calc(99vw);
+		max-height: calc(98vw*3/4);
+		max-width: calc(98vw);
 	}
 }
