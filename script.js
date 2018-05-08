@@ -123,6 +123,12 @@ function weAreTheGinyuForce(el){
 	}
 }
 
+
+function friezaReaction(el) {
+	document.getElementById("iamlordfrieza").classList.add("slide","no-cursor");
+	entrance.play()
+}
+
 function addImgElement() { 
 	// create a new img element 
 	var newImg = document.createElement("IMG"); 
@@ -133,12 +139,13 @@ function addImgElement() {
 
 	// add the img to your HTML
 	document.getElementById("insert-img-here").appendChild(newImg);
-	// add the 'fixed-aspect' class to restric the image size
-	newImg.classList.add("fixed-aspect");
+	// add the 'max-img' class to restric the image size
+	newImg.classList.add("max-img");
 
 	// add an 'onclick' function in the HTML
 	newImg.onclick = function(){
 		document.getElementById("ginyu-force-roses").classList.add("roses", "no-cursor");
 		roses.play();
+		setTimeout(friezaReaction, 3000);
 	}
 }
