@@ -6,6 +6,7 @@ body {
 	background-color: #000000;
 	display: flex;
 	flex-wrap: wrap;
+	overflow-x: hidden;
 }
 
 .max-img {
@@ -51,6 +52,17 @@ img:hover {
 	justify-content: center;
 	height: calc(100vh/3);
 	width: calc(100vw/5);
+}
+
+.off-screen {
+	position: absolute;
+	right: -25vw;
+	height: 25%;
+}
+
+.slide {
+	transform: translate(-30vw, 0);
+	transition: transform 5s ease;
 }
 
 .roses {
